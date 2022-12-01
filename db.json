@@ -1483,7 +1483,7 @@
       ]
     },
     {
-      "group": "B",
+      "group": "H",
       "teams": [
         {
           "countryName": "Portugal",
@@ -1491,47 +1491,47 @@
           "points": "0",
           "player": [
             {
-              "playerName": "Diogo Costa",
+              "playerName": "Diogo Costa"
               
             },
             {
-              "playerName": "Rui Patricio",
+              "playerName": "Rui Patricio"
               
             },
             {
-              "playerName": "Jose Sa",
+              "playerName": "Jose Sa"
               
             },
             {
-              "playerName": "Diogo Dalot",
+              "playerName": "Diogo Dalot"
               
             },
             {
-              "playerName": "Joao Cancelo",
+              "playerName": "Joao Cancelo"
               
             },
             {
-              "playerName": "Danilo Pereira",
+              "playerName": "Danilo Pereira"
               
             },
             {
-              "playerName": "Pepe",
+              "playerName": "Pepe"
               
             },
             {
-              "playerName": "Ruben Dias",
+              "playerName": "Ruben Dias"
               
             },
             {
-              "playerName": "Antonio Silva",
+              "playerName": "Antonio Silva"
               
             },
             {
-              "playerName": "Nuno Mendes",
+              "playerName": "Nuno Mendes"
               
             },
             {
-              "playerName": "Raphael Guerreiro",
+              "playerName": "Raphael Guerreiro"
               
             }
           ]
@@ -1542,47 +1542,47 @@
           "points": "0",
           "player": [
             {
-              "playerName": "Abdul Nurudeen",
+              "playerName": "Abdul Nurudeen"
               
             },
             {
-              "playerName": "Danlad Ibrahim",
+              "playerName": "Danlad Ibrahim"
               
             },
             {
-              "playerName": "Lawrence Ati Zigi",
+              "playerName": "Lawrence Ati Zigi"
               
             },
             {
-              "playerName": "Joseph Aidoo",
+              "playerName": "Joseph Aidoo"
               
             },
             {
-              "playerName": "Daniel Amartey",
+              "playerName": "Daniel Amartey"
               
             },
             {
-              "playerName": "Alexander Djiku",
+              "playerName": "Alexander Djiku"
               
             },
             {
-              "playerName": "Tariq Lamptey",
+              "playerName": "Tariq Lamptey"
               
             },
             {
-              "playerName": "Gideon Mensah",
+              "playerName": "Gideon Mensah"
               
             },
             {
-              "playerName": "Denis Odoi",
+              "playerName": "Denis Odoi"
               
             },
             {
-              "playerName": "Abdul-Rahman Baba",
+              "playerName": "Abdul-Rahman Baba"
               
             },
             {
-              "playerName": "Mohamed Salisu",
+              "playerName": "Mohamed Salisu"
               
             }
           ]
@@ -1593,48 +1593,48 @@
           "points": "0",
           "player": [
             {
-              "playerName": "name",
-              
+              "playerName": "Sergio Rochet"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Fernando Muslera"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Sebastian Sosa"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Jose Luis Rodriguez"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Guillermo Varela"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Ronald Araujo"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Josema Gimenez"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Sebastian Coates"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Diego Godin"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Martin Caceres"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Matias Vina"
+
             }
           ]
         },
@@ -1644,48 +1644,48 @@
           "points": "0",
           "player": [
             {
-              "playerName": "name",
-              
+              "playerName": "Seung-Gyu Kim"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Bum-Keun Song"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Hyeon-Woo Jo"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Kyung-Won Kwon"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Moon-Hwan Kim"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Min-Jae Kim"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Young-Gwon Kim"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Jin-Su Kim"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Tae-Hwan Kim"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Jong-Gyu Yoon"
+
             },
             {
-              "playerName": "name",
-              
+              "playerName": "Yu-Min Cho"
+
             }
           ]
         }
