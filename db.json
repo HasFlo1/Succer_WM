@@ -67,8 +67,108 @@
 	},
   {"group": "B",
 	"teams": [
-		{"countryName": "Portugal", "image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]}, 
-		{"countryName": "Ghana","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]},
+    {
+      "countryName": "Portugal",
+      "image": "0",
+      "points": "0",
+      "player": [
+        {
+          "playerName": "Diogo Costa",
+          "picture": "0"
+        },
+        {
+          "playerName": "Rui Patricio",
+          "picture": "0"
+        },
+        {
+          "playerName": "Jose Sa",
+          "picture": "0"
+        },
+        {
+          "playerName": "Diogo Dalot",
+          "picture": "0"
+        },
+        {
+          "playerName": "Joao Cancelo",
+          "picture": "0"
+        },
+        {
+          "playerName": "Danilo Pereira",
+          "picture": "0"
+        },
+        {
+          "playerName": "Pepe",
+          "picture": "0"
+        },
+        {
+          "playerName": "Ruben Dias",
+          "picture": "0"
+        },
+        {
+          "playerName": "Antonio Silva",
+          "picture": "0"
+        },
+        {
+          "playerName": "Nuno Mendes",
+          "picture": "0"
+        },
+        {
+          "playerName": "Raphael Guerreiro",
+          "picture": "0"
+        }
+      ]
+    },
+    {
+      "countryName": "Ghana",
+      "image": "0",
+      "points": "0",
+      "player": [
+        {
+          "playerName": "Abdul Nurudeen",
+          "picture": "0"
+        },
+        {
+          "playerName": "Danlad Ibrahim",
+          "picture": "0"
+        },
+        {
+          "playerName": "Lawrence Ati Zigi",
+          "picture": "0"
+        },
+        {
+          "playerName": "Joseph Aidoo",
+          "picture": "0"
+        },
+        {
+          "playerName": "Daniel Amartey",
+          "picture": "0"
+        },
+        {
+          "playerName": "Alexander Djiku",
+          "picture": "0"
+        },
+        {
+          "playerName": "Tariq Lamptey",
+          "picture": "0"
+        },
+        {
+          "playerName": "Gideon Mensah",
+          "picture": "0"
+        },
+        {
+          "playerName": "Denis Odoi",
+          "picture": "0"
+        },
+        {
+          "playerName": "Abdul-Rahman Baba",
+          "picture": "0"
+        },
+        {
+          "playerName": "Mohamed Salisu",
+          "picture": "0"
+        }
+      ]
+    },
     {"countryName": "Uruguay","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]},
     {"countryName": "Südkorea","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]}  
            ]
