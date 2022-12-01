@@ -1,177 +1,1695 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
   "profile": [
-  { "name": "typicode" }
-],
+    {
+      "name": "typicode"
+    }
+  ],
   "group": [
-	{"group": "A",
-	"teams": [
-		{"countryName": "Katar", "image": "0","points": "0", "player": [{"playerName": "Pedro Miguel (Al-Sadd SC)", "picture": "0"}, {"playerName": "Musab Khoder (Al-Sadd SC)", "picture": "0"}, {"playerName": "Tarek Salman (Al-Sadd SC)", "picture": "0"}, {"playerName": "Bassam Al-Rawi (Al-Duhail SC/Katar)", "picture": "0"}, {"playerName": "Boualem Khoukhi (Al-Sadd SC)", "picture": "0"}, {"playerName": "Abdelkarim Hassan (Al-Sadd SC)", "picture": "0"}, {"playerName": "Ismaeel Mohammad (Al-Duhail SC)", "picture": "0"}, {"playerName": "Homam Ahmed (Al-Gharafa SC)", "picture": "0"}, {"playerName": "Jassem Gaber (Al-Arabi SC/Katar)", "picture": "0"}, {"playerName": "Ali Asad (Al-Sadd SC)", "picture": "0"}, {"playerName": "Assim Madibo (Al-Duhail SC)", "picture": "0"}]}, 
-		{"countryName": "Ecuador","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]},
-    {"countryName": "Senegal","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]},
-    {"countryName": "Niederlande","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]}  
-           ]
-	},
-  {"group": "B",
-	"teams": [
-		{"countryName": "England", "image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]}, 
-		{"countryName": "Iran","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]},
-    {"countryName": "USA","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]},
-    {"countryName": "Wales","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]}  
-           ]
-	},
-  {"group": "C",
-	"teams": [
-		{"countryName": "Argentinien", "image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]}, 
-		{"countryName": "Saudi-Arabien","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]},
-    {"countryName": "Mexiko","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]},
-    {"countryName": "Polen","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]}  
-           ]
-	},
-  {"group": "D",
-	"teams": [
-		{"countryName": "Frankreich", "image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]}, 
-		{"countryName": "Australien","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]},
-    {"countryName": "Dänemark","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]},
-    {"countryName": "Tunesien","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]}  
-           ]
-	},
-  {"group": "E",
-	"teams": [
-		{"countryName": "Spanien", "image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]}, 
-		{"countryName": "Costa Rica","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]},
-    {"countryName": "Deutschland","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]},
-    {"countryName": "Japan","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]}  
-           ]
-	},
-  {"group": "F",
-	"teams": [
-		{"countryName": "Belgien", "image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]}, 
-		{"countryName": "Kanada","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]},
-    {"countryName": "Markokko","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]},
-    {"countryName": "Kroatien","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]}  
-           ]
-	},
-  {"group": "G",
-	"teams": [
-		{"countryName": "Brasilien", "image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]}, 
-		{"countryName": "Serbien","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]},
-    {"countryName": "Schweiz","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]},
-    {"countryName": "Kamerun","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]}  
-           ]
-	},
-  {"group": "B",
-	"teams": [
     {
-      "countryName": "Portugal",
-      "image": "0",
-      "points": "0",
-      "player": [
+      "group": "A",
+      "teams": [
         {
-          "playerName": "Diogo Costa",
-          "picture": "0"
+          "countryName": "Katar",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "Pedro Miguel",
+              
+            },
+            {
+              "playerName": "Musab Khoder",
+              
+            },
+            {
+              "playerName": "Tarek Salman",
+              
+            },
+            {
+              "playerName": "Bassam Al-Rawi",
+              
+            },
+            {
+              "playerName": "Boualem Khoukhi",
+              
+            },
+            {
+              "playerName": "Abdelkarim Hassan",
+              
+            },
+            {
+              "playerName": "Ismaeel Mohammad (Al-Duhail SC)",
+              
+            },
+            {
+              "playerName": "Homam Ahmed (Al-Gharafa SC)",
+              
+            },
+            {
+              "playerName": "Jassem Gaber (Al-Arabi SC/Katar)",
+              
+            },
+            {
+              "playerName": "Ali Asad (Al-Sadd SC)",
+              
+            },
+            {
+              "playerName": "Assim Madibo (Al-Duhail SC)",
+              
+            }
+          ]
         },
         {
-          "playerName": "Rui Patricio",
-          "picture": "0"
+          "countryName": "Ecuador",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
         },
         {
-          "playerName": "Jose Sa",
-          "picture": "0"
+          "countryName": "Senegal",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
         },
         {
-          "playerName": "Diogo Dalot",
-          "picture": "0"
-        },
-        {
-          "playerName": "Joao Cancelo",
-          "picture": "0"
-        },
-        {
-          "playerName": "Danilo Pereira",
-          "picture": "0"
-        },
-        {
-          "playerName": "Pepe",
-          "picture": "0"
-        },
-        {
-          "playerName": "Ruben Dias",
-          "picture": "0"
-        },
-        {
-          "playerName": "Antonio Silva",
-          "picture": "0"
-        },
-        {
-          "playerName": "Nuno Mendes",
-          "picture": "0"
-        },
-        {
-          "playerName": "Raphael Guerreiro",
-          "picture": "0"
+          "countryName": "Niederlande",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
         }
       ]
     },
     {
-      "countryName": "Ghana",
-      "image": "0",
-      "points": "0",
-      "player": [
+      "group": "B",
+      "teams": [
         {
-          "playerName": "Abdul Nurudeen",
-          "picture": "0"
+          "countryName": "England",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
         },
         {
-          "playerName": "Danlad Ibrahim",
-          "picture": "0"
+          "countryName": "Iran",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
         },
         {
-          "playerName": "Lawrence Ati Zigi",
-          "picture": "0"
+          "countryName": "USA",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
         },
         {
-          "playerName": "Joseph Aidoo",
-          "picture": "0"
-        },
-        {
-          "playerName": "Daniel Amartey",
-          "picture": "0"
-        },
-        {
-          "playerName": "Alexander Djiku",
-          "picture": "0"
-        },
-        {
-          "playerName": "Tariq Lamptey",
-          "picture": "0"
-        },
-        {
-          "playerName": "Gideon Mensah",
-          "picture": "0"
-        },
-        {
-          "playerName": "Denis Odoi",
-          "picture": "0"
-        },
-        {
-          "playerName": "Abdul-Rahman Baba",
-          "picture": "0"
-        },
-        {
-          "playerName": "Mohamed Salisu",
-          "picture": "0"
+          "countryName": "Wales",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
         }
       ]
     },
-    {"countryName": "Uruguay","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]},
-    {"countryName": "Südkorea","image": "0","points": "0", "player": [{"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}, {"playerName": "name", "picture": "0"}]}  
-           ]
-	}
-           ]
+    {
+      "group": "C",
+      "teams": [
+        {
+          "countryName": "Argentinien",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Saudi-Arabien",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Mexiko",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Polen",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": "D",
+      "teams": [
+        {
+          "countryName": "Frankreich",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Australien",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Dänemark",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Tunesien",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": "E",
+      "teams": [
+        {
+          "countryName": "Spanien",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Costa Rica",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Deutschland",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Japan",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": "F",
+      "teams": [
+        {
+          "countryName": "Belgien",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Kanada",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Markokko",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Kroatien",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": "G",
+      "teams": [
+        {
+          "countryName": "Brasilien",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Serbien",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Schweiz",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Kamerun",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "teams": [
+        {
+          "countryName": "Portugal",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "Diogo Costa",
+              
+            },
+            {
+              "playerName": "Rui Patricio",
+              
+            },
+            {
+              "playerName": "Jose Sa",
+              
+            },
+            {
+              "playerName": "Diogo Dalot",
+              
+            },
+            {
+              "playerName": "Joao Cancelo",
+              
+            },
+            {
+              "playerName": "Danilo Pereira",
+              
+            },
+            {
+              "playerName": "Pepe",
+              
+            },
+            {
+              "playerName": "Ruben Dias",
+              
+            },
+            {
+              "playerName": "Antonio Silva",
+              
+            },
+            {
+              "playerName": "Nuno Mendes",
+              
+            },
+            {
+              "playerName": "Raphael Guerreiro",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Ghana",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "Abdul Nurudeen",
+              
+            },
+            {
+              "playerName": "Danlad Ibrahim",
+              
+            },
+            {
+              "playerName": "Lawrence Ati Zigi",
+              
+            },
+            {
+              "playerName": "Joseph Aidoo",
+              
+            },
+            {
+              "playerName": "Daniel Amartey",
+              
+            },
+            {
+              "playerName": "Alexander Djiku",
+              
+            },
+            {
+              "playerName": "Tariq Lamptey",
+              
+            },
+            {
+              "playerName": "Gideon Mensah",
+              
+            },
+            {
+              "playerName": "Denis Odoi",
+              
+            },
+            {
+              "playerName": "Abdul-Rahman Baba",
+              
+            },
+            {
+              "playerName": "Mohamed Salisu",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Uruguay",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        },
+        {
+          "countryName": "Südkorea",
+          "image": "0",
+          "points": "0",
+          "player": [
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            },
+            {
+              "playerName": "name",
+              
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
