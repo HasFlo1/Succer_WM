@@ -9,14 +9,14 @@ const tableTemplate = html`
     <table class="w3-table w3-striped w3-bordered">
         <thead>
             <tr>
-            <th>Land</th><th>Punkte</th>
+            <th>Id</th><th>Name</th>
             </tr>
         </thead>
         <tbody></tbody>
     </table>
 `
 const rowTemplate = (user: User) => html`
-    <td>${user.countryName}</td><td>${user.points}</td>
+    <td></td><td></td>
 `
 class UserTableComponent extends HTMLElement {
 
@@ -34,7 +34,7 @@ class UserTableComponent extends HTMLElement {
         render(tableTemplate, this.root)
         const body = this.root.querySelector("tbody")
         users.forEach(user => {
-            const row = body!.insertRow()
+            const row = body.insertRow()
             row.onclick = () => {
                 const event = new CustomEvent("user-selected", {detail: {user}})
                 this.dispatchEvent(event)

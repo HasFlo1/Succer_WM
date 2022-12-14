@@ -1,7 +1,5 @@
-import teamService from "./team-service"
+import "./components/app-component"
 
 const body = document.querySelector("body")
 const appComponent = document.createElement("app-component")
 body.appendChild(appComponent)
-
-console.log(teamService.fetchTeams())

@@ -1,14 +1,16 @@
 import { BehaviorSubject } from "rxjs"
-import { Team } from "./team"
+
+import {User} from "./user"
 
 export interface Model {
-    readonly teams: Team[]
+    readonly users: User[]
 }
 
 const initialState: Model = {
-    teams: []
+    users: []
 }
 
 const store = new BehaviorSubject<Model>(initialState)
 
 export default store;
+
