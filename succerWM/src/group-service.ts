@@ -1,7 +1,7 @@
 
 import produce from "immer";
 import store from "./model/store"
-import { User } from "./model/user";
+import { Group } from "./model/group";
 const url = "https://www.jsonkeeper.com/b/RHHG"
 
 class UserService {
@@ -14,14 +14,14 @@ class UserService {
            // }
          // })
         const response = await fetch(url)
-        let users: [User] = await response.json()
+        let groups: [Group] = await response.json()
         let nextState = produce(store.getValue(), draft => {
-            draft.users = users
+            draft.groups = groups
         })
         store.next(nextState)
-        console.log(users)
+        console.log(groups)
     }
 }
 
-const userService = new UserService()
-export default userService
+const groupService = new UserService()
+export default groupService

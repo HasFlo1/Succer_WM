@@ -1,10 +1,8 @@
 import {html, render} from "lit-html"
-import "./user-table-component"
-import "./user-component"
+import "./group-table-component"
 
 const appComponentTemplate = html`
-    <user-table-component id="table"></user-table-component>
-    <user-component id="user"></user-component>
+    <group-table-component id="table"></group-table-component>
 `
 
 class AppComponent extends HTMLElement {
@@ -19,15 +17,7 @@ class AppComponent extends HTMLElement {
     }
     render() {
         render(appComponentTemplate, this.shadowRoot)
-        const userTableComponent = this.shadowRoot.getElementById("table")
-        const userComponent: HTMLElement = this.shadowRoot.querySelector("user-component")
-        userTableComponent.addEventListener("user-selected", (e: CustomEvent) => {
-            const user = e.detail.user
-            console.log("user selected", user)
-            userComponent.setAttribute("id", user.id)
-            userTableComponent.style.display = "none"
-            userComponent.style.display = "block"
-        })
+        const groupTableComponent = this.shadowRoot.getElementById("table")
     }
 }
 
