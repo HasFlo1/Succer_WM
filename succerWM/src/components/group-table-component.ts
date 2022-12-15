@@ -35,6 +35,7 @@ class GroupTableComponent extends HTMLElement {
         const body = this.root.querySelector("tbody")
         groups.forEach(group => {
             const row = body!.insertRow()
+            row.addTable
             render(rowTemplate(group), row)
         })
     }
