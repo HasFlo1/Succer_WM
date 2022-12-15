@@ -76,12 +76,18 @@ class GroupTableComponent extends HTMLElement {
         render(tableTemplate, this.root)
         const body = this.root.querySelector("tbody")
         groups.forEach(group => {
+<<<<<<< HEAD
             if (group.group == "A"){
                 const row = body!.insertRow()
                 render(rowTemplate(group), row)  
             }
             
               
+=======
+            const row = body!.insertRow()
+            row.addTable
+            render(rowTemplate(group), row)
+>>>>>>> b29da6991c39f993c303071c2dfdcda286550491
         })
         const nodes = this.root.getElementById("1")
         render(tableTemplate, nodes)
