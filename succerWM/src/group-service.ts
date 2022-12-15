@@ -6,13 +6,6 @@ const url = "https://www.jsonkeeper.com/b/RHHG"
 
 class UserService {
     async fetchUsers() {
-        //const response = await fetch(url, {
-            //mode: 'cors',
-            //headers: {
-              //'Access-Control-Allow-Origin':'*',
-              //'Access-Control-Allow-Credentials': 'true'
-           // }
-         // })
         const response = await fetch(url)
         let groups: [Group] = await response.json()
         let nextState = produce(store.getValue(), draft => {
