@@ -1,6 +1,7 @@
 import { BehaviorSubject } from "rxjs"
 
-import {Group} from "./group"
+import {Group} from "./model"
+import { RootObject } from "./model"
 
 export interface Model {
     readonly groups: Group[]

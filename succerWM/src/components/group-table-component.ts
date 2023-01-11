@@ -1,7 +1,7 @@
 import {html, render} from "lit-html"
 
 import store from "../model/store"
-import { Group } from "../model/group"
+import { Group, Team } from "../model/model"
 import groupService from "../group-service"
 
 const tableTemplate = html`
@@ -14,7 +14,7 @@ const tableTemplate = html`
                     <th>Group A</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="A">
             </tbody>
         </div>
 
@@ -26,7 +26,7 @@ const tableTemplate = html`
                     <th>Group B</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="B">
             </tbody>
             </div>
 
@@ -38,7 +38,7 @@ const tableTemplate = html`
                     <th>Group C</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody  id="C">
             </tbody>
             </div>
 
@@ -50,14 +50,14 @@ const tableTemplate = html`
                     <th>Group D</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody  id="D">
             </tbody>
             </div>
 `
 
 
-const rowTemplate = (group: Group) => html`
-    <td>${group.group}</td><td>${group.countryName}</td>
+const rowTemplate = (team: Team) => html`
+    <td>${team.countryName}</td>
 `
 
 class GroupTableComponent extends HTMLElement {
@@ -69,28 +69,35 @@ class GroupTableComponent extends HTMLElement {
     }
     async connectedCallback() {
         store
-            .subscribe(model => this.render(model.groups))
+            .subscribe(model => {this.render(model.groups); console.log(model.groups)})
         groupService.fetchUsers()
+        
     }
     private render(groups: Group[]) {
         render(tableTemplate, this.root)
-        const body = this.root.querySelector("tbody")
+        const bodys = this.root.querySelectorAll("tbody")
         groups.forEach(group => {
-<<<<<<< HEAD
-            if (group.group == "A"){
-                const row = body!.insertRow()
-                render(rowTemplate(group), row)  
-            }
+            group.teams.forEach(team => {
+                var body = bodys.forEach(x => {
+                    if(x.attributes.getNamedItem("id").value == group.group){
+                        const row = x.insertRow()
+                        row.onclick=()=>{
+                            const event = new CustomEvent("team-selected", {detail: {team}})
+                            this.dispatchEvent(event)
+                        }
+                        render(rowTemplate(team), row) 
+                    }
+                })
+            })
+            
+            /*const row = body!.insertRow()
+            row.addTable
+            render(rowTemplate(group), row)*/
             
               
-=======
-            const row = body!.insertRow()
-            row.addTable
-            render(rowTemplate(group), row)
->>>>>>> b29da6991c39f993c303071c2dfdcda286550491
         })
-        const nodes = this.root.getElementById("1")
-        render(tableTemplate, nodes)
+        //const nodes = this.root.getElementById("1")
+        //render(tableTemplate, nodes)
 
     }
 }

@@ -18,6 +18,16 @@ class AppComponent extends HTMLElement {
     render() {
         render(appComponentTemplate, this.shadowRoot)
         const groupTableComponent = this.shadowRoot.getElementById("table")
+        groupTableComponent.addEventListener("team-selected", (e:CustomEvent) => {
+            const team = e.detail.team;
+            console.log(team)
+
+            // detail seite anzeigen 
+            // table seite ausblenden
+
+            // event an detail seite schickn (mit team daten)
+            // in detail seite players durchgehen und rendern
+        })
     }
 }
 

@@ -1,6 +1,6 @@
 import {Team} from "./team"
 
-export interface Group {
+export interface Groups {
     group: string,
     countryName: string,
     teams: Team[]
