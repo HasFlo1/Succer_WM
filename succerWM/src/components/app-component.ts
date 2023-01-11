@@ -1,6 +1,6 @@
 import {html, render} from "lit-html"
 import "./group-table-component"
-
+//Platzhalter wo später html Code Steht
 const appComponentTemplate = html`
     <group-table-component id="table"></group-table-component>
 `
@@ -8,9 +8,9 @@ const appComponentTemplate = html`
 class AppComponent extends HTMLElement {
     constructor() {
         super()
-        this.attachShadow({mode: "open"})
+        this.attachShadow({mode: "open"})//Golbal erreichbar
     }
-    connectedCallback() {
+    connectedCallback() {//standart mäsig vohanden ist wie ein Postconstruct
         console.log("connected")
         this.render()
 
@@ -31,4 +31,4 @@ class AppComponent extends HTMLElement {
     }
 }
 
-customElements.define("app-component", AppComponent)
+customElements.define("app-component", AppComponent)//definiert unsere Klasse als eigene Komponente

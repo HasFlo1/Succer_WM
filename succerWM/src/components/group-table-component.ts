@@ -3,7 +3,7 @@ import {html, render} from "lit-html"
 import store from "../model/store"
 import { Group, Team } from "../model/model"
 import groupService from "../group-service"
-
+//Template
 const tableTemplate = html`
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <table class="w3-table w3-striped w3-bordered">
@@ -55,7 +55,7 @@ const tableTemplate = html`
             </div>
 `
 
-
+//Template
 const rowTemplate = (team: Team) => html`
     <td>${team.countryName}</td>
 `
@@ -68,8 +68,7 @@ class GroupTableComponent extends HTMLElement {
         this.root = this.attachShadow({ mode: "closed" })
     }
     async connectedCallback() {
-        store
-            .subscribe(model => {this.render(model.groups); console.log(model.groups)})
+        store.subscribe(model => {this.render(model.groups); console.log(model.groups)})
         groupService.fetchUsers()
         
     }
@@ -101,4 +100,4 @@ class GroupTableComponent extends HTMLElement {
 
     }
 }
-customElements.define("group-table-component", GroupTableComponent)
+customElements.define("group-table-component", GroupTableComponent)//eigene Komponente

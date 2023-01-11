@@ -7,13 +7,13 @@ const url = "https://www.jsonkeeper.com/b/RHHG"
 const url2 = "https://www.jsonkeeper.com/b/O59A"
 
 class UserService {
-    async fetchUsers() {
-        const response = await fetch(url2, {
-            mode: "cors"
+    async fetchUsers() {//asynchrone fetch methode
+        const response = await fetch(url2, {//fetch
+            mode: "cors"//wegen der Cors poicy
         })
-        let root: RootObject = await response.json()
-        let groups = root.group
-        let nextState = produce(store.getValue(), draft => {
+        let root: RootObject = await response.json()//in eine Variable als Json speichern
+        let groups = root.group//holt aus json die Gruppen
+        let nextState = produce(store.getValue(), draft => {//für singel source of truth -> immer
             draft.groups = groups
         })
         store.next(nextState)
@@ -22,4 +22,4 @@ class UserService {
 }
 
 const groupService = new UserService()
-export default groupService
+export default groupService//exportiert groupService
