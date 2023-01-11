@@ -1,17 +1,17 @@
-import { BehaviorSubject } from "rxjs"
+import { BehaviorSubject } from "rxjs"//wird verwendet das alle Subscriber den zuletzt geänderten wert bekommen
 
 import {Group} from "./model"
 import { RootObject } from "./model"
 
 export interface Model {
-    readonly groups: Group[]
+    readonly groups: Group[]//kann gruppen nur lesn
 }
 
 const initialState: Model = {
-    groups: []
+    groups: []//deault statment -> Arrayliste die leer ist
 }
 
-const store = new BehaviorSubject<Model>(initialState)
+const store = new BehaviorSubject<Model>(initialState)//intialisiert den Store
 
-export default store;
+export default store;//Exportiert Store
 
