@@ -1,1692 +1,635 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": [
-    {
-      "name": "typicode"
-    }
-  ],
-  "group": [
-    {
-      "group": "A",
-      "teams": [
-        {
-          "countryName": "Katar",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Pedro Miguel"
-              
-            },
-            {
-              "playerName": "Musab Khoder"
-              
-            },
-            {
-              "playerName": "Tarek Salman"
-              
-            },
-            {
-              "playerName": "Bassam Al-Rawi"
-              
-            },
-            {
-              "playerName": "Boualem Khoukhi"
-              
-            },
-            {
-              "playerName": "Abdelkarim Hassan"
-              
-            },
-            {
-              "playerName": "Ismaeel Mohammad"
-              
-            },
-            {
-              "playerName": "Homam Ahmed"
-              
-            },
-            {
-              "playerName": "Jassem Gaber"
-              
-            },
-            {
-              "playerName": "Ali Asad"
-              
-            },
-            {
-              "playerName": "Assim Madibo"
-              
-            }
-          ]
-        },
-        {
-          "countryName": "Ecuador",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Hernan Galindez"
-              
-            },
-            {
-              "playerName": "Angelo Preciado"
-              
-            },
-            {
-              "playerName": "Felix Torres"
-              
-            },
-            {
-              "playerName": "Pervis Estubinan"
-              
-            },
-            {
-              "playerName": "Piero Hincapie"
-              
-            },
-            {
-              "playerName": "Alan Franco"
-              
-            },
-            {
-              "playerName": "Moises Caicedo"
-            },
-            {
-              "playerName": "Carlos Gruezo"
-              
-            },
-            {
-              "playerName": "Enner Valencia"
-              
-            },
-            {
-              "playerName": "Michael Estrada"
-              
-            },
-            {
-              "playerName": "Gonzalo Plata"
-              
-            }
-          ]
-        },
-        {
-          "countryName": "Senegal",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Edouard Mendy"
-              
-            },
-            {
-              "playerName": "Ismail Jakobs"
-              
-            },
-            {
-              "playerName": "Kalidou Koulibaly"
-              
-            },
-            {
-              "playerName": "Abdou Diallo"
-              
-            },
-            {
-              "playerName": "Youssouf Sabaly"
-              
-            },
-            {
-              "playerName": "Imaila Sarr"
-              
-            },
-            {
-              "playerName": "Pape Gueye"
-              
-            },
-            {
-              "playerName": "Pathe Ciss"
-              
-            },
-            {
-              "playerName": "Idrissa Gueye"
-              
-            },
-            {
-              "playerName": "Iliman Ndiaye"
-              
-            },
-            {
-              "playerName": "Boulaye Dia"
-              
-            }
-          ]
-        },
-        {
-          "countryName": "Niederlande",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Andries Noppert"
-              
-            },
-            {
-              "playerName": "Matthijs de Ligt"
-              
-            },
-            {
-              "playerName": "Virgil van Dijk"
-              
-            },
-            {
-              "playerName": "Nathan Ake"
-              
-            },
-            {
-              "playerName": "Steven Berghuis"
-              
-            },
-            {
-              "playerName": "Frenkie de Jong"
-              
-            },
-            {
-              "playerName": "Daley Blind"
-            },
-            {
-              "playerName": "Denzel Dumfies"
-              
-            },
-            {
-              "playerName": "Cody Gakpo"
-              
-            },
-            {
-              "playerName": "Steven Berrgwijn"
-              
-            },
-            {
-              "playerName": "Vincent Janssen"
-              
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "group": "B",
-      "teams": [
-        {
-          "countryName": "England",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Jordan Pickford"
-              
-            },
-            {
-              "playerName": "Kieran Trippier"
-              
-            },
-            {
-              "playerName": "John Stones"
-              
-            },
-            {
-              "playerName": "Luke Shaw"
-              
-            },
-            {
-              "playerName": "Harry Maguire"
-              
-            },
-            {
-              "playerName": "Mason Mount"
-              
-            },
-            {
-              "playerName": "Declan Rice"
-              
-            },
-            {
-              "playerName": "Jude Bellingham"
-              
-            },
-            {
-              "playerName": "Raheem Sterling"
-              
-            },
-            {
-              "playerName": "Bukayo Saka"
-              
-            },
-            {
-              "playerName": "Harry Kane"
-              
-            }
-          ]
-        },
-        {
-          "countryName": "Iran",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Alireza Beyranvand"
-              
-            },
-            {
-              "playerName": "Sadegh Moharrami"
-              
-            },
-            {
-              "playerName": "Roozbeh Cheshmi"
-              
-            },
-            {
-              "playerName": "Morteza Pouraliganji"
-              
-            },
-            {
-              "playerName": "Milad Mohammadi"
-              
-            },
-            {
-              "playerName": "Majid Hosseini"
-              
-            },
-            {
-              "playerName": "Ahmad Noorollahi"
-              
-            },
-            {
-              "playerName": "Ehsan Hajisafi"
-              
-            },
-            {
-              "playerName": "Alireza Jahanbkhsh"
-              
-            },
-            {
-              "playerName": "Ali Karimi"
-              
-            },
-            {
-              "playerName": "Mehdi Taremi"
-              
-            }
-          ]
-        },
-        {
-          "countryName": "USA",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Matt Turner"
-              
-            },
-            {
-              "playerName": "Sergino Dest"
-              
-            },
-            {
-              "playerName": "Antonee Robinson"
-              
-            },
-            {
-              "playerName": "Tim Ream"
-              
-            },
-            {
-              "playerName": "Walker Zimmerman"
-              
-            },
-            {
-              "playerName": "Yunus Musah"
-              
-            },
-            {
-              "playerName": "Tyler Adams"
-              
-            },
-            {
-              "playerName": "Weston McKennie"
-              
-            },
-            {
-              "playerName": "Timothy Weah"
-              
-            },
-            {
-              "playerName": "Christian Pulisic"
-              
-            },
-            {
-              "playerName": "Josh Sargent"
-              
-            }
-          ]
-        },
-        {
-          "countryName": "Wales",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Wayne Hennessey"
-              
-            },
-            {
-              "playerName": "Chris Mepham"
-              
-            },
-            {
-              "playerName": "Ben Davies"
-              
-            },
-            {
-              "playerName": "Joe Rodon"
-              
-            },
-            {
-              "playerName": "Aaron Ramsey"
-              
-            },
-            {
-              "playerName": "Ethan Ampadu"
-              
-            },
-            {
-              "playerName": "connor Roberts"
-              
-            },
-            {
-              "playerName": "Neco Williams"
-              
-            },
-            {
-              "playerName": "Harry Wilson"
-              
-            },
-            {
-              "playerName": "Gareth Bale"
-              
-            },
-            {
-              "playerName": "Dan James"
-              
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "group": "C",
-      "teams": [
-        {
-          "countryName": "Argentinien",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Emiliano Martinez"
-              
-            },
-            {
-              "playerName": "Nahuel Molina"
-              
-            },
-            {
-              "playerName": "Nicolas Tagliafico"
-              
-            },
-            {
-              "playerName": "Christian Romero"
-              
-            },
-            {
-              "playerName": "Nicolas Otamendi"
-              
-            },
-            {
-              "playerName": "Papu Gomez"
-              
-            },
-            {
-              "playerName": "Angel Di Maria"
-              
-            },
-            {
-              "playerName": "Rodrigo De Paul"
-              
-            },
-            {
-              "playerName": "Leandro Paredes"
-              
-            },
-            {
-              "playerName": "Lionel Messi"
-              
-            },
-            {
-              "playerName": "Lautaro Martinez"
-              
-            }
-          ]
-        },
-        {
-          "countryName": "Saudi-Arabien",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Mohammed Al Owais"
-              
-            },
-            {
-              "playerName": "Ali Al Bulayhi"
-              
-            },
-            {
-              "playerName": "Saud Abdulhamid"
-              
-            },
-            {
-              "playerName": "Yasir Al Shahrani"
-              
-            },
-            {
-              "playerName": "Hassan Tambakti"
-              
-            },
-            {
-              "playerName": "Mohammed Kanno"
-              
-            },
-            {
-              "playerName": "Feras Al Briakan"
-              
-            },
-            {
-              "playerName": "Salman Al Faraj"
-              
-            },
-            {
-              "playerName": "Abdulelah Al Malki"
-              
-            },
-            {
-              "playerName": "Salem Al Dawsari"
-              
-            },
-            {
-              "playerName": "Saleh Al Shehri"
-              
-            }
-          ]
-        },
-        {
-          "countryName": "Mexiko",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Guillermo Ochoa"
-              
-            },
-            {
-              "playerName": "Hector Moreno"
-              
-            },
-            {
-              "playerName": "Cesar Montes"
-              
-            },
-            {
-              "playerName": "Jesus Gallardo"
-              
-            },
-            {
-              "playerName": "Jorge Sanchez"
-              
-            },
-            {
-              "playerName": "Luis Chavez"
-              
-            },
-            {
-              "playerName": "Hector Herrera"
-              
-            },
-            {
-              "playerName": "Edson Alvarez"
-              
-            },
-            {
-              "playerName": "Henry Martin"
-              
-            },
-            {
-              "playerName": "Alexis Vega"
-              
-            },
-            {
-              "playerName": "Herving Lozano"
-              
-            }
-          ]
-        },
-        {
-          "countryName": "Polen",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Wojciech Szczesny"
-              
-            },
-            {
-              "playerName": "Bartosz Berenszynski"
-              
-            },
-            {
-              "playerName": "Jakub Kiwior"
-              
-            },
-            {
-              "playerName": "Kamil Glik"
-              
-            },
-            {
-              "playerName": "Matty Cash"
-              
-            },
-            {
-              "playerName": "Grzegorz Krychowiak"
-              
-            },
-            {
-              "playerName": "Jakub Kaminski"
-              
-            },
-            {
-              "playerName": "Nicola Zalewski"
-              
-            },
-            {
-              "playerName": "Sebastian Szymanski"
-              
-            },
-            {
-              "playerName": "Piotr Zielinski"
-              
-            },
-            {
-              "playerName": "Robert Lewandowski"
-              
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "group": "D",
-      "teams": [
-        {
-          "countryName": "Frankreich",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Hugo Lloris"
-              
-            },
-            {
-              "playerName": "Lucas Hernandez"
-              
-            },
-            {
-              "playerName": "Dayot Upamecano"
-              
-            },
-            {
-              "playerName": "Benjamin Pavard"
-              
-            },
-            {
-              "playerName": "Ibrahima Konate"
-              
-            },
-            {
-              "playerName": "Adrien Rabiot"
-              
-            },
-            {
-              "playerName": "Kylian Mbappe"
-              
-            },
-            {
-              "playerName": "Aurelien Tchouameni"
-              
-            },
-            {
-              "playerName": "Ousmane Dembele"
-              
-            },
-            {
-              "playerName": "Antoine Griezmann"
-              
-            },
-            {
-              "playerName": "Olivier Giroud"
-              
-            }
-          ]
-        },
-        {
-          "countryName": "Australien",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Mathew Ryan"
-              
-            },
-            {
-              "playerName": "Harry Souttar"
-              
-            },
-            {
-              "playerName": "Aziz Behich"
-              
-            },
-            {
-              "playerName": "Nathaniel Atkinsion"
-              
-            },
-            {
-              "playerName": "Kye Rowles"
-              
-            },
-            {
-              "playerName": "Craig Goodwin"
-              
-            },
-            {
-              "playerName": "Mathew Leckie"
-              
-            },
-            {
-              "playerName": "Jackson Irvine"
-              
-            },
-            {
-              "playerName": "Riley McGree"
-              
-            },
-            {
-              "playerName": "Aaron Mooy"
-              
-            },
-            {
-              "playerName": "Mitchell Duke"
-              
-            }
-          ]
-        },
-        {
-          "countryName": "Dänemark",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Kasper Schmeichel"
-              
-            },
-            {
-              "playerName": "Joachim Andersen"
-              
-            },
-            {
-              "playerName": "Simon Kjaer"
-              
-            },
-            {
-              "playerName": "Andreas Christensen"
-              
-            },
-            {
-              "playerName": "Thomas Delaney"
-
-            },
-            {
-              "playerName": "Christian Eriksen"
-              
-            },
-            {
-              "playerName": "Pierre-Emile Hojbjerg"
-              
-            },
-            {
-              "playerName": "Joakim Maehle"
-              
-            },
-            {
-              "playerName": "Rasmus Kristensen"
-              
-            },
-            {
-              "playerName": "Anreas Skov Olsen"
-              
-            },
-            {
-              "playerName": "Kasper Dolberg"
-              
-            }
-          ]
-        },
-        {
-          "countryName": "Tunesien",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Aymen Dahmen"
-              
-            },
-            {
-              "playerName": "Dylan Bronn"
-              
-            },
-            {
-              "playerName": "Montassar Talbi"
-              
-            },
-            {
-              "playerName": "Yassine Meriah"
-              
-            },
-            {
-              "playerName": "Ali Abdi"
-              
-            },
-            {
-              "playerName": "Aissa Laidouni"
-              
-            },
-            {
-              "playerName": "Mohamed Dräger"
-              
-            },
-            {
-              "playerName": "Ellyes Skhiri"
-              
-            },
-            {
-              "playerName": "Anis Ben Slimane"
-              
-            },
-            {
-              "playerName": "Youssef Msakni"
-              
-            },
-            {
-              "playerName": "Issam Jebali"
-              
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "group": "E",
-      "teams": [
-        {
-          "countryName": "Spanien",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Unai Simon"
-
-            },
-            {
-              "playerName": "Robert Sanchez"
-
-            },
-            {
-              "playerName": "David Raya"
-
-            },
-            {
-              "playerName": "Dani Carvajal"
-
-            },
-            {
-              "playerName": "Cesar Azpilicueta"
-
-            },
-            {
-              "playerName": "Eric Garcia"
-
-            },
-            {
-              "playerName": "Hugo Guillamon"
-
-            },
-            {
-              "playerName": "Pau Torres"
-
-            },
-            {
-              "playerName": "Aymeric Laporte"
-
-            },
-            {
-              "playerName": "Jordi Alba"
-
-            },
-            {
-              "playerName": "Alejandro Balde"
-
-            }
-          ]
-        },
-        {
-          "countryName": "Costa Rica",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Esteban Alvarado"
-
-            },
-            {
-              "playerName": "Keylor Navas"
-
-            },
-            {
-              "playerName": "Patrick Sequeira"
-
-            },
-            {
-              "playerName": "Francisco Calvo"
-
-            },
-            {
-              "playerName": "Daniel Chacon"
-
-            },
-            {
-              "playerName": "Oscar Duarte"
-
-            },
-            {
-              "playerName": "Keysher Fuller"
-
-            },
-            {
-              "playerName": "Carlos Martinez"
-
-            },
-            {
-              "playerName": "Ronald Matarrita"
-
-            },
-            {
-              "playerName": "Bryan Oviedo"
-
-            },
-            {
-              "playerName": "Juan Pablo Vargas"
-
-            }
-          ]
-        },
-        {
-          "countryName": "Deutschland",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Manuel Neuer"
-
-            },
-            {
-              "playerName": "Marc-Andre ter Stegen"
-
-            },
-            {
-              "playerName": " Kevin Trapp"
-
-            },
-            {
-              "playerName": "Armel Bella Kotchap"
-
-            },
-            {
-              "playerName": "Matthias Ginter"
-
-            },
-            {
-              "playerName": "Christian Günter"
-
-            },
-            {
-              "playerName": "Thilo Kehrer"
-
-            },
-            {
-              "playerName": "Lukas Klostermann"
-
-            },
-            {
-              "playerName": "David Raum"
-
-            },
-            {
-              "playerName": "Antonio Rüdiger"
-
-            },
-            {
-              "playerName": "Nico Schlotterbeck"
-
-            }
-          ]
-        },
-        {
-          "countryName": "Japan",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Shuichi Gonda"
-
-            },
-            {
-              "playerName": "Eiji Kawashima"
-
-            },
-            {
-              "playerName": "Daniel Schmidt"
-
-            },
-            {
-              "playerName": "Yuto Nagatomo"
-
-            },
-            {
-              "playerName": "Maya Yoshida"
-
-            },
-            {
-              "playerName": "Takehiro Tomiyasu"
-
-            },
-            {
-              "playerName": "Hiroki Sakai"
-
-            },
-            {
-              "playerName": "Shogo Taniguchi"
-
-            },
-            {
-              "playerName": "Ko Itakura"
-
-            },
-            {
-              "playerName": "Miki Yamane"
-
-            },
-            {
-
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "group": "F",
-      "teams": [
-        {
-          "countryName": "Belgien",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Koen Casteels"
-
-            },
-            {
-              "playerName": "Thibaut Courtois"
-
-            },
-            {
-              "playerName": "Simon Mignolet"
-
-            },
-            {
-              "playerName": "Toby Alderweireleld"
-
-            },
-            {
-              "playerName": "Zeno Debast"
-
-            },
-            {
-              "playerName": "Wout Faes"
-
-            },
-            {
-              "playerName": "Arthur Theate"
-
-            },
-            {
-              "playerName": "Jan Vertonghen"
-
-            },
-            {
-              "playerName": "Thomas Meunier"
-
-            },
-            {
-              "playerName": "Timothy Castagne"
-
-            },
-            {
-              "playerName": "Yannick Carraso"
-
-            }
-          ]
-        },
-        {
-          "countryName": "Kanada",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "James Pantemis"
-
-            },
-            {
-              "playerName": "Milan Borjan"
-
-            },
-            {
-              "playerName": "Dayne St. Clair"
-
-            },
-            {
-              "playerName": "Samuel Adekugbe"
-
-            },
-            {
-              "playerName": "Joel Waterman"
-
-            },
-            {
-              "playerName": "Alistair Johnston"
-
-            },
-            {
-              "playerName": "Kamal Miller"
-
-            },
-            {
-              "playerName": "Richie Laryea"
-
-            },
-            {
-              "playerName": "Steven Vitoria"
-
-            },
-            {
-              "playerName": "Derek Cornelius"
-
-            },
-            {
-              "playerName": "Liam Fraser"
-
-            }
-          ]
-        },
-        {
-          "countryName": "Markokko",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Bono"
-
-            },
-            {
-              "playerName": "Munir Mohamedi"
-
-            },
-            {
-              "playerName": "Ahmed Reda Tagnaouti"
-
-            },
-            {
-              "playerName": "Achraf Hakimi"
-
-            },
-            {
-              "playerName": "Noussair Mazraoui"
-
-            },
-            {
-              "playerName": "Romain Saiss"
-
-            },
-            {
-              "playerName": "Nayef Aguerd"
-
-            },
-            {
-              "playerName": "Achraf Dari"
-
-            },
-            {
-              "playerName": "Jawad El-Yamiq"
-
-            },
-            {
-              "playerName": "Yahia Attiyat Allah"
-
-            },
-            {
-              "playerName": "Badr Benoun"
-
-            }
-          ]
-        },
-        {
-          "countryName": "Kroatien",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Dominik Livakovic"
-
-            },
-            {
-              "playerName": "Ivica Ivusic"
-
-            },
-            {
-              "playerName": "Ivo Grbic"
-
-            },
-            {
-              "playerName": "Domagoj Vida"
-
-            },
-            {
-              "playerName": "Dejan Lovren"
-
-            },
-            {
-              "playerName": "Borna Barisic"
-
-            },
-            {
-              "playerName": "Josip Juranovic"
-
-            },
-            {
-              "playerName": "Josko Gvardiol"
-
-            },
-            {
-              "playerName": "Borna Sosa"
-
-            },
-            {
-              "playerName": "Josip Stanisic"
-
-            },
-            {
-              "playerName": "Martin Erlic"
-
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "group": "G",
-      "teams": [
-        {
-          "countryName": "Brasilien",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Alisson"
-
-            },
-            {
-              "playerName": "Ederson"
-
-            },
-            {
-              "playerName": "Weverton"
-
-            },
-            {
-              "playerName": "Danilo"
-
-            },
-            {
-              "playerName": "Dani Alves"
-
-            },
-            {
-              "playerName": "Alex Sandro"
-
-            },
-            {
-              "playerName": "Alex Telles"
-
-            },
-            {
-              "playerName": "Thiago Silva"
-
-            },
-            {
-              "playerName": "Marquinhos"
-
-            },
-            {
-              "playerName": "Éder Militão"
-
-            },
-            {
-              "playerName": "Bremer"
-
-            }
-          ]
-        },
-        {
-          "countryName": "Serbien",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Marko Dmitrovic"
-
-            },
-            {
-              "playerName": "Predrag Rajkovic"
-
-            },
-            {
-              "playerName": "Vanja Milinkovic-Savic"
-
-            },
-            {
-              "playerName": "Stefan Mitrovic"
-
-            },
-            {
-              "playerName": "Nikola Milenkovic"
-
-            },
-            {
-              "playerName": "Strahinja Pavlovic"
-
-            },
-            {
-              "playerName": "Milos Veljkovic"
-
-            },
-            {
-              "playerName": "Filip Mladenovic"
-
-            },
-            {
-              "playerName": "Strahinja Erakovic"
-
-            },
-            {
-              "playerName": "Srdjan Babic"
-
-            },
-            {
-              "playerName": "Nemanja Gudelj"
-
-            }
-          ]
-        },
-        {
-          "countryName": "Schweiz",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Yann Sommer"
-
-            },
-            {
-              "playerName": "Gregor Kobel"
-
-            },
-            {
-              "playerName": "Jonas Omlin"
-
-            },
-            {
-              "playerName": "Philipp Köhn"
-
-            },
-            {
-              "playerName": "Manuel Akanji"
-
-            },
-            {
-              "playerName": "Eray Cömert"
-
-            },
-            {
-              "playerName": "Nico Elvedi"
-
-            },
-            {
-              "playerName": "Ricardo Rodriguez"
-
-            },
-            {
-              "playerName": "Fabian Schär"
-
-            },
-            {
-              "playerName": "Silvan Widmer"
-
-            },
-            {
-              "playerName": "Edimilson Fernandes"
-
-            }
-          ]
-        },
-        {
-          "countryName": "Kamerun",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Devis Epassy"
-
-            },
-            {
-              "playerName": "Simon Ngapandouetnbu"
-
-            },
-            {
-              "playerName": "Andre Onana"
-
-            },
-            {
-              "playerName": "Jean-Charles Castelletto"
-
-            },
-            {
-              "playerName": "Enzo Ebosse"
-
-            },
-            {
-              "playerName": "Collins Fai"
-
-            },
-            {
-              "playerName": "Olivier Mbaizo"
-
-            },
-            {
-              "playerName": "Nicolas Nkoulou"
-
-            },
-            {
-              "playerName": "Tolo Nouhou"
-
-            },
-            {
-              "playerName": "Christopher Wooh"
-
-            },
-            {
-              "playerName": "Martin Hongla"
-
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "group": "H",
-      "teams": [
-        {
-          "countryName": "Portugal",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Diogo Costa"
-              
-            },
-            {
-              "playerName": "Rui Patricio"
-              
-            },
-            {
-              "playerName": "Jose Sa"
-              
-            },
-            {
-              "playerName": "Diogo Dalot"
-              
-            },
-            {
-              "playerName": "Joao Cancelo"
-              
-            },
-            {
-              "playerName": "Danilo Pereira"
-              
-            },
-            {
-              "playerName": "Pepe"
-              
-            },
-            {
-              "playerName": "Ruben Dias"
-              
-            },
-            {
-              "playerName": "Antonio Silva"
-              
-            },
-            {
-              "playerName": "Nuno Mendes"
-              
-            },
-            {
-              "playerName": "Raphael Guerreiro"
-              
-            }
-          ]
-        },
-        {
-          "countryName": "Ghana",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Abdul Nurudeen"
-              
-            },
-            {
-              "playerName": "Danlad Ibrahim"
-              
-            },
-            {
-              "playerName": "Lawrence Ati Zigi"
-              
-            },
-            {
-              "playerName": "Joseph Aidoo"
-              
-            },
-            {
-              "playerName": "Daniel Amartey"
-              
-            },
-            {
-              "playerName": "Alexander Djiku"
-              
-            },
-            {
-              "playerName": "Tariq Lamptey"
-              
-            },
-            {
-              "playerName": "Gideon Mensah"
-              
-            },
-            {
-              "playerName": "Denis Odoi"
-              
-            },
-            {
-              "playerName": "Abdul-Rahman Baba"
-              
-            },
-            {
-              "playerName": "Mohamed Salisu"
-              
-            }
-          ]
-        },
-        {
-          "countryName": "Uruguay",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Sergio Rochet"
-
-            },
-            {
-              "playerName": "Fernando Muslera"
-
-            },
-            {
-              "playerName": "Sebastian Sosa"
-
-            },
-            {
-              "playerName": "Jose Luis Rodriguez"
-
-            },
-            {
-              "playerName": "Guillermo Varela"
-
-            },
-            {
-              "playerName": "Ronald Araujo"
-
-            },
-            {
-              "playerName": "Josema Gimenez"
-
-            },
-            {
-              "playerName": "Sebastian Coates"
-
-            },
-            {
-              "playerName": "Diego Godin"
-
-            },
-            {
-              "playerName": "Martin Caceres"
-
-            },
-            {
-              "playerName": "Matias Vina"
-
-            }
-          ]
-        },
-        {
-          "countryName": "Südkorea",
-          "image": "0",
-          "points": "0",
-          "player": [
-            {
-              "playerName": "Seung-Gyu Kim"
-
-            },
-            {
-              "playerName": "Bum-Keun Song"
-
-            },
-            {
-              "playerName": "Hyeon-Woo Jo"
-
-            },
-            {
-              "playerName": "Kyung-Won Kwon"
-
-            },
-            {
-              "playerName": "Moon-Hwan Kim"
-
-            },
-            {
-              "playerName": "Min-Jae Kim"
-
-            },
-            {
-              "playerName": "Young-Gwon Kim"
-
-            },
-            {
-              "playerName": "Jin-Su Kim"
-
-            },
-            {
-              "playerName": "Tae-Hwan Kim"
-
-            },
-            {
-              "playerName": "Jong-Gyu Yoon"
-
-            },
-            {
-              "playerName": "Yu-Min Cho"
-
-            }
-          ]
-        }
-      ]
-    }
-  ]
+	"posts": [
+		{
+			"id": 1,
+			"title": "json-server",
+			"author": "typicode"
+		}
+	],
+	"comments": [
+		{
+			"id": 1,
+			"body": "some comment",
+			"postId": 1
+		}
+	],
+	"profile": [ { "name": "typicode" } ],
+	"group": [
+		{
+			"group": "A",
+			"teams": [
+				{
+					"countryName": "Katar",
+					"image": "https://media.istockphoto.com/id/1181996834/de/vektor/katar-flagge-vektor-illustration-auf-wei%C3%9Fem-hintergrund-katar-nationalflagge.jpg?s=612x612&w=0&k=20&c=z7YhfT8crkVfj1ca_nv8EWMCURF0NazHt0f078c5F3w=",
+					"points": "9",
+					"player": [
+						{ "playerName": "Pedro Miguel" },
+						{ "playerName": "Musab Khoder" },
+						{ "playerName": "Tarek Salman" },
+						{ "playerName": "Bassam Al-Rawi" },
+						{ "playerName": "Boualem Khoukhi" },
+						{ "playerName": "Abdelkarim Hassan" },
+						{ "playerName": "Ismaeel Mohammad" },
+						{ "playerName": "Homam Ahmed" },
+						{ "playerName": "Jassem Gaber" },
+						{ "playerName": "Ali Asad" },
+						{ "playerName": "Assim Madibo" }
+					]
+				},
+				{
+					"countryName": "Ecuador",
+					"image": "data:image/png;base64,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",
+					"points": "3",
+					"player": [
+						{ "playerName": "Hernan Galindez" },
+						{ "playerName": "Angelo Preciado" },
+						{ "playerName": "Felix Torres" },
+						{ "playerName": "Pervis Estubinan" },
+						{ "playerName": "Piero Hincapie" },
+						{ "playerName": "Alan Franco" },
+						{ "playerName": "Moises Caicedo" },
+						{ "playerName": "Carlos Gruezo" },
+						{ "playerName": "Enner Valencia" },
+						{ "playerName": "Michael Estrada" },
+						{ "playerName": "Gonzalo Plata" }
+					]
+				},
+				{
+					"countryName": "Senegal",
+					"image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg",
+					"points": "1",
+					"player": [
+						{ "playerName": "Edouard Mendy" },
+						{ "playerName": "Ismail Jakobs" },
+						{ "playerName": "Kalidou Koulibaly" },
+						{ "playerName": "Abdou Diallo" },
+						{ "playerName": "Youssouf Sabaly" },
+						{ "playerName": "Imaila Sarr" },
+						{ "playerName": "Pape Gueye" },
+						{ "playerName": "Pathe Ciss" },
+						{ "playerName": "Idrissa Gueye" },
+						{ "playerName": "Iliman Ndiaye" },
+						{ "playerName": "Boulaye Dia" }
+					]
+				},
+				{
+					"countryName": "Niederlande",
+					"image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAElBMVEWuHCj///8hRouuGSb99/j3+fxjPD24AAABC0lEQVR4nO3RsQ2DABDAwCfA/iunf0u0UNyNYM8AAAAAAAAAAAAAAAAAAAAAj062t5d80sU2B5smpUlpUpqUJqVJaVKalCalSWlSmpQmpUlpUpqUJqVJaVKalCalSWlSmpQmpUlpUpqUJqVJaVKalCalSWlSmpQmpUlpUpqUJqVJaVKalCalSWlSmpQmpUlpUpqUJqVJaVKalCalSc3NNj82TUqT0qQ0KU1Kk9KkNClNSpPSpDQpTUqT0qQ0KU1Kk9KkNClNSpPSpDQpTUqT0qQ0KU1Kk9KkNClNSpPSpDQpTUqT0qQ0KU1Kk9KkNClNSpPSpDQpTUqT0qQ0KU1Kk9KkNClNSpPSpDSpP0Blz1R39PPpAAAAAElFTkSuQmCC",
+					"points": "1",
+					"player": [
+						{ "playerName": "Andries Noppert" },
+						{ "playerName": "Matthijs de Ligt" },
+						{ "playerName": "Virgil van Dijk" },
+						{ "playerName": "Nathan Ake" },
+						{ "playerName": "Steven Berghuis" },
+						{ "playerName": "Frenkie de Jong" },
+						{ "playerName": "Daley Blind" },
+						{ "playerName": "Denzel Dumfies" },
+						{ "playerName": "Cody Gakpo" },
+						{ "playerName": "Steven Berrgwijn" },
+						{ "playerName": "Vincent Janssen" }
+					]
+				}
+			]
+		},
+		{
+			"group": "B",
+			"teams": [
+				{
+					"countryName": "England",
+					"image": "https://www.nordisch.info/wp-content/uploads/2019/05/england-flagge.png",
+					"points": "9",
+					"player": [
+						{ "playerName": "Jordan Pickford" },
+						{ "playerName": "Kieran Trippier" },
+						{ "playerName": "John Stones" },
+						{ "playerName": "Luke Shaw" },
+						{ "playerName": "Harry Maguire" },
+						{ "playerName": "Mason Mount" },
+						{ "playerName": "Declan Rice" },
+						{ "playerName": "Jude Bellingham" },
+						{ "playerName": "Raheem Sterling" },
+						{ "playerName": "Bukayo Saka" },
+						{ "playerName": "Harry Kane" }
+					]
+				},
+				{
+					"countryName": "Iran",
+					"image": "https://i.ds.at/0YkTxQ/c:2858:1636:fp:0.500:0.500/plain/2022/11/28/FlagofIran.svg-2.png",
+					"points": "4",
+					"player": [
+						{ "playerName": "Alireza Beyranvand" },
+						{ "playerName": "Sadegh Moharrami" },
+						{ "playerName": "Roozbeh Cheshmi" },
+						{ "playerName": "Morteza Pouraliganji" },
+						{ "playerName": "Milad Mohammadi" },
+						{ "playerName": "Majid Hosseini" },
+						{ "playerName": "Ahmad Noorollahi" },
+						{ "playerName": "Ehsan Hajisafi" },
+						{ "playerName": "Alireza Jahanbkhsh" },
+						{ "playerName": "Ali Karimi" },
+						{ "playerName": "Mehdi Taremi" }
+					]
+				},
+				{
+					"countryName": "USA",
+					"image": "https://flags-world.com/wp-content/uploads/2021/01/flag-of-the-united-states_19.png",
+					"points": "1",
+					"player": [
+						{ "playerName": "Matt Turner" },
+						{ "playerName": "Sergino Dest" },
+						{ "playerName": "Antonee Robinson" },
+						{ "playerName": "Tim Ream" },
+						{ "playerName": "Walker Zimmerman" },
+						{ "playerName": "Yunus Musah" },
+						{ "playerName": "Tyler Adams" },
+						{ "playerName": "Weston McKennie" },
+						{ "playerName": "Timothy Weah" },
+						{ "playerName": "Christian Pulisic" },
+						{ "playerName": "Josh Sargent" }
+					]
+				},
+				{
+					"countryName": "Wales",
+					"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Flag_of_Wales_%281959%29.svg/2000px-Flag_of_Wales_%281959%29.svg.png",
+					"points": "6",
+					"player": [
+						{ "playerName": "Wayne Hennessey" },
+						{ "playerName": "Chris Mepham" },
+						{ "playerName": "Ben Davies" },
+						{ "playerName": "Joe Rodon" },
+						{ "playerName": "Aaron Ramsey" },
+						{ "playerName": "Ethan Ampadu" },
+						{ "playerName": "connor Roberts" },
+						{ "playerName": "Neco Williams" },
+						{ "playerName": "Harry Wilson" },
+						{ "playerName": "Gareth Bale" },
+						{ "playerName": "Dan James" }
+					]
+				}
+			]
+		},
+		{
+			"group": "C",
+			"teams": [
+				{
+					"countryName": "Argentinien",
+					"image": "https://m.media-amazon.com/images/I/51A--BNTDbL._SX522_.jpg",
+					"points": "3",
+					"player": [
+						{ "playerName": "Emiliano Martinez" },
+						{ "playerName": "Nahuel Molina" },
+						{ "playerName": "Nicolas Tagliafico" },
+						{ "playerName": "Christian Romero" },
+						{ "playerName": "Nicolas Otamendi" },
+						{ "playerName": "Papu Gomez" },
+						{ "playerName": "Angel Di Maria" },
+						{ "playerName": "Rodrigo De Paul" },
+						{ "playerName": "Leandro Paredes" },
+						{ "playerName": "Lionel Messi" },
+						{ "playerName": "Lautaro Martinez" }
+					]
+				},
+				{
+					"countryName": "Saudi-Arabien",
+					"image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg",
+					"points": "3",
+					"player": [
+						{ "playerName": "Mohammed Al Owais" },
+						{ "playerName": "Ali Al Bulayhi" },
+						{ "playerName": "Saud Abdulhamid" },
+						{ "playerName": "Yasir Al Shahrani" },
+						{ "playerName": "Hassan Tambakti" },
+						{ "playerName": "Mohammed Kanno" },
+						{ "playerName": "Feras Al Briakan" },
+						{ "playerName": "Salman Al Faraj" },
+						{ "playerName": "Abdulelah Al Malki" },
+						{ "playerName": "Salem Al Dawsari" },
+						{ "playerName": "Saleh Al Shehri" }
+					]
+				},
+				{
+					"countryName": "Mexiko",
+					"image": "https://cdn.pixabay.com/photo/2012/04/10/23/24/mexico-26989__340.png",
+					"points": "3",
+					"player": [
+						{ "playerName": "Guillermo Ochoa" },
+						{ "playerName": "Hector Moreno" },
+						{ "playerName": "Cesar Montes" },
+						{ "playerName": "Jesus Gallardo" },
+						{ "playerName": "Jorge Sanchez" },
+						{ "playerName": "Luis Chavez" },
+						{ "playerName": "Hector Herrera" },
+						{ "playerName": "Edson Alvarez" },
+						{ "playerName": "Henry Martin" },
+						{ "playerName": "Alexis Vega" },
+						{ "playerName": "Herving Lozano" }
+					]
+				},
+				{
+					"countryName": "Polen",
+					"image": "https://media.istockphoto.com/id/1025179860/de/vektor/nationalflagge-polen.jpg?s=612x612&w=0&k=20&c=DrpQ-1fYg0RcDTk0OKjYuCd2YYWyYH2bRqeDdFeBwlI=",
+					"points": "6",
+					"player": [
+						{ "playerName": "Wojciech Szczesny" },
+						{ "playerName": "Bartosz Berenszynski" },
+						{ "playerName": "Jakub Kiwior" },
+						{ "playerName": "Kamil Glik" },
+						{ "playerName": "Matty Cash" },
+						{ "playerName": "Grzegorz Krychowiak" },
+						{ "playerName": "Jakub Kaminski" },
+						{ "playerName": "Nicola Zalewski" },
+						{ "playerName": "Sebastian Szymanski" },
+						{ "playerName": "Piotr Zielinski" },
+						{ "playerName": "Robert Lewandowski" }
+					]
+				}
+			]
+		},
+		{
+			"group": "D",
+			"teams": [
+				{
+					"countryName": "Frankreich",
+					"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/2000px-Flag_of_France.svg.png",
+					"points": "5",
+					"player": [
+						{ "playerName": "Hugo Lloris" },
+						{ "playerName": "Lucas Hernandez" },
+						{ "playerName": "Dayot Upamecano" },
+						{ "playerName": "Benjamin Pavard" },
+						{ "playerName": "Ibrahima Konate" },
+						{ "playerName": "Adrien Rabiot" },
+						{ "playerName": "Kylian Mbappe" },
+						{ "playerName": "Aurelien Tchouameni" },
+						{ "playerName": "Ousmane Dembele" },
+						{ "playerName": "Antoine Griezmann" },
+						{ "playerName": "Olivier Giroud" }
+					]
+				},
+				{
+					"countryName": "Australien",
+					"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Australia.svg/2000px-Flag_of_Australia.svg.png",
+					"points": "4",
+					"player": [
+						{ "playerName": "Mathew Ryan" },
+						{ "playerName": "Harry Souttar" },
+						{ "playerName": "Aziz Behich" },
+						{ "playerName": "Nathaniel Atkinsion" },
+						{ "playerName": "Kye Rowles" },
+						{ "playerName": "Craig Goodwin" },
+						{ "playerName": "Mathew Leckie" },
+						{ "playerName": "Jackson Irvine" },
+						{ "playerName": "Riley McGree" },
+						{ "playerName": "Aaron Mooy" },
+						{ "playerName": "Mitchell Duke" }
+					]
+				},
+				{
+					"countryName": "Dänemark",
+					"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyND-ZOC08tddzVdJEMQjLqHNAZp5l1NWq4Q&usqp=CAU",
+					"points": "5",
+					"player": [
+						{ "playerName": "Kasper Schmeichel" },
+						{ "playerName": "Joachim Andersen" },
+						{ "playerName": "Simon Kjaer" },
+						{ "playerName": "Andreas Christensen" },
+						{ "playerName": "Thomas Delaney" },
+						{ "playerName": "Christian Eriksen" },
+						{ "playerName": "Pierre-Emile Hojbjerg" },
+						{ "playerName": "Joakim Maehle" },
+						{ "playerName": "Rasmus Kristensen" },
+						{ "playerName": "Anreas Skov Olsen" },
+						{ "playerName": "Kasper Dolberg" }
+					]
+				},
+				{
+					"countryName": "Tunesien",
+					"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/2000px-Flag_of_Tunisia.svg.png",
+					"points": "3",
+					"player": [
+						{ "playerName": "Aymen Dahmen" },
+						{ "playerName": "Dylan Bronn" },
+						{ "playerName": "Montassar Talbi" },
+						{ "playerName": "Yassine Meriah" },
+						{ "playerName": "Ali Abdi" },
+						{ "playerName": "Aissa Laidouni" },
+						{ "playerName": "Mohamed Dräger" },
+						{ "playerName": "Ellyes Skhiri" },
+						{ "playerName": "Anis Ben Slimane" },
+						{ "playerName": "Youssef Msakni" },
+						{ "playerName": "Issam Jebali" }
+					]
+				}
+			]
+		},
+		{
+			"group": "E",
+			"teams": [
+				{
+					"countryName": "Spanien",
+					"image": "https://cdn.pixabay.com/photo/2017/10/31/23/52/spain-2906824__480.png",
+					"points": "6",
+					"player": [
+						{ "playerName": "Unai Simon" },
+						{ "playerName": "Robert Sanchez" },
+						{ "playerName": "David Raya" },
+						{ "playerName": "Dani Carvajal" },
+						{ "playerName": "Cesar Azpilicueta" },
+						{ "playerName": "Eric Garcia" },
+						{ "playerName": "Hugo Guillamon" },
+						{ "playerName": "Pau Torres" },
+						{ "playerName": "Aymeric Laporte" },
+						{ "playerName": "Jordi Alba" },
+						{ "playerName": "Alejandro Balde" }
+					]
+				},
+				{
+					"countryName": "Costa Rica",
+					"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA0GQdRiiTvVyI0bNAI0et2dDycTlZuLr9JQ&usqp=CAU",
+					"points": "3",
+					"player": [
+						{ "playerName": "Esteban Alvarado" },
+						{ "playerName": "Keylor Navas" },
+						{ "playerName": "Patrick Sequeira" },
+						{ "playerName": "Francisco Calvo" },
+						{ "playerName": "Daniel Chacon" },
+						{ "playerName": "Oscar Duarte" },
+						{ "playerName": "Keysher Fuller" },
+						{ "playerName": "Carlos Martinez" },
+						{ "playerName": "Ronald Matarrita" },
+						{ "playerName": "Bryan Oviedo" },
+						{ "playerName": "Juan Pablo Vargas" }
+					]
+				},
+				{
+					"countryName": "Deutschland",
+					"image": "https://www.kindernetz.de/wissen/1611230920701,europa-deutschland-102~_v-16x9@2dL_-6c42aff4e68b43c7868c3240d3ebfa29867457da.jpg",
+					"points": "1",
+					"player": [
+						{ "playerName": "Manuel Neuer" },
+						{ "playerName": "Marc-Andre ter Stegen" },
+						{ "playerName": " Kevin Trapp" },
+						{ "playerName": "Armel Bella Kotchap" },
+						{ "playerName": "Matthias Ginter" },
+						{ "playerName": "Christian Günter" },
+						{ "playerName": "Thilo Kehrer" },
+						{ "playerName": "Lukas Klostermann" },
+						{ "playerName": "David Raum" },
+						{ "playerName": "Antonio Rüdiger" },
+						{ "playerName": "Nico Schlotterbeck" }
+					]
+				},
+				{
+					"countryName": "Japan",
+					"image": "http://www.kohaido.de/wp-content/uploads/2013/02/flag-japan.png",
+					"points": "6",
+					"player": [
+						{ "playerName": "Shuichi Gonda" },
+						{ "playerName": "Eiji Kawashima" },
+						{ "playerName": "Daniel Schmidt" },
+						{ "playerName": "Yuto Nagatomo" },
+						{ "playerName": "Maya Yoshida" },
+						{ "playerName": "Takehiro Tomiyasu" },
+						{ "playerName": "Hiroki Sakai" },
+						{ "playerName": "Shogo Taniguchi" },
+						{ "playerName": "Ko Itakura" },
+						{ "playerName": "Miki Yamane" },
+						{}
+					]
+				}
+			]
+		},
+		{
+			"group": "F",
+			"teams": [
+				{
+					"countryName": "Belgien",
+					"image": "https://static.vecteezy.com/ti/gratis-vektor/p3/4708483-belgien-flagge-belgien-flagge-illustration-belgien-flagge-bild-belgien-flagge-bild-belgien-flagge-belgien-flagge-illustration-belgien-flagge-bild-belgien-flagge-image-vector-illustration-vektor.jpg",
+					"points": "7",
+					"player": [
+						{ "playerName": "Koen Casteels" },
+						{ "playerName": "Thibaut Courtois" },
+						{ "playerName": "Simon Mignolet" },
+						{ "playerName": "Toby Alderweireleld" },
+						{ "playerName": "Zeno Debast" },
+						{ "playerName": "Wout Faes" },
+						{ "playerName": "Arthur Theate" },
+						{ "playerName": "Jan Vertonghen" },
+						{ "playerName": "Thomas Meunier" },
+						{ "playerName": "Timothy Castagne" },
+						{ "playerName": "Yannick Carraso" }
+					]
+				},
+				{
+					"countryName": "Kanada",
+					"image": "https://www.faszination-kanada.com/wp-content/uploads/2017/09/1280px-Flag_of_Canada_1964.svg_-1600-xx.jpg",
+					"points": "9",
+					"player": [
+						{ "playerName": "James Pantemis" },
+						{ "playerName": "Milan Borjan" },
+						{ "playerName": "Dayne St. Clair" },
+						{ "playerName": "Samuel Adekugbe" },
+						{ "playerName": "Joel Waterman" },
+						{ "playerName": "Alistair Johnston" },
+						{ "playerName": "Kamal Miller" },
+						{ "playerName": "Richie Laryea" },
+						{ "playerName": "Steven Vitoria" },
+						{ "playerName": "Derek Cornelius" },
+						{ "playerName": "Liam Fraser" }
+					]
+				},
+				{
+					"countryName": "Markokko",
+					"image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg",
+					"points": "3",
+					"player": [
+						{ "playerName": "Bono" },
+						{ "playerName": "Munir Mohamedi" },
+						{ "playerName": "Ahmed Reda Tagnaouti" },
+						{ "playerName": "Achraf Hakimi" },
+						{ "playerName": "Noussair Mazraoui" },
+						{ "playerName": "Romain Saiss" },
+						{ "playerName": "Nayef Aguerd" },
+						{ "playerName": "Achraf Dari" },
+						{ "playerName": "Jawad El-Yamiq" },
+						{ "playerName": "Yahia Attiyat Allah" },
+						{ "playerName": "Badr Benoun" }
+					]
+				},
+				{
+					"countryName": "Kroatien",
+					"image": "https://www.total-croatia.com/images/2021/04/04/208-croatian-flag_xxl.webp",
+					"points": "3",
+					"player": [
+						{ "playerName": "Dominik Livakovic" },
+						{ "playerName": "Ivica Ivusic" },
+						{ "playerName": "Ivo Grbic" },
+						{ "playerName": "Domagoj Vida" },
+						{ "playerName": "Dejan Lovren" },
+						{ "playerName": "Borna Barisic" },
+						{ "playerName": "Josip Juranovic" },
+						{ "playerName": "Josko Gvardiol" },
+						{ "playerName": "Borna Sosa" },
+						{ "playerName": "Josip Stanisic" },
+						{ "playerName": "Martin Erlic" }
+					]
+				}
+			]
+		},
+		{
+			"group": "G",
+			"teams": [
+				{
+					"countryName": "Brasilien",
+					"image": "https://latin-mag.com/blog/wp-content/uploads/2018/08/flagge-brasilien.jpg",
+					"points": "9",
+					"player": [
+						{ "playerName": "Alisson" },
+						{ "playerName": "Ederson" },
+						{ "playerName": "Weverton" },
+						{ "playerName": "Danilo" },
+						{ "playerName": "Dani Alves" },
+						{ "playerName": "Alex Sandro" },
+						{ "playerName": "Alex Telles" },
+						{ "playerName": "Thiago Silva" },
+						{ "playerName": "Marquinhos" },
+						{ "playerName": "Éder Militão" },
+						{ "playerName": "Bremer" }
+					]
+				},
+				{
+					"countryName": "Serbien",
+					"image": "https://www.buegelbilder.ch/wp-content/uploads/2020/07/20385-serbien-flagge.jpg",
+					"points": "3",
+					"player": [
+						{ "playerName": "Marko Dmitrovic" },
+						{ "playerName": "Predrag Rajkovic" },
+						{ "playerName": "Vanja Milinkovic-Savic" },
+						{ "playerName": "Stefan Mitrovic" },
+						{ "playerName": "Nikola Milenkovic" },
+						{ "playerName": "Strahinja Pavlovic" },
+						{ "playerName": "Milos Veljkovic" },
+						{ "playerName": "Filip Mladenovic" },
+						{ "playerName": "Strahinja Erakovic" },
+						{ "playerName": "Srdjan Babic" },
+						{ "playerName": "Nemanja Gudelj" }
+					]
+				},
+				{
+					"countryName": "Schweiz",
+					"image": "https://node01.flagstat.net/media/catalog/product/detail/12737.png",
+					"points": "6",
+					"player": [
+						{ "playerName": "Yann Sommer" },
+						{ "playerName": "Gregor Kobel" },
+						{ "playerName": "Jonas Omlin" },
+						{ "playerName": "Philipp Köhn" },
+						{ "playerName": "Manuel Akanji" },
+						{ "playerName": "Eray Cömert" },
+						{ "playerName": "Nico Elvedi" },
+						{ "playerName": "Ricardo Rodriguez" },
+						{ "playerName": "Fabian Schär" },
+						{ "playerName": "Silvan Widmer" },
+						{ "playerName": "Edimilson Fernandes" }
+					]
+				},
+				{
+					"countryName": "Kamerun",
+					"image": "https://cdn.pixabay.com/photo/2012/04/16/13/17/cameroon-35964_960_720.png",
+					"points": "6",
+					"player": [
+						{ "playerName": "Devis Epassy" },
+						{ "playerName": "Simon Ngapandouetnbu" },
+						{ "playerName": "Andre Onana" },
+						{ "playerName": "Jean-Charles Castelletto" },
+						{ "playerName": "Enzo Ebosse" },
+						{ "playerName": "Collins Fai" },
+						{ "playerName": "Olivier Mbaizo" },
+						{ "playerName": "Nicolas Nkoulou" },
+						{ "playerName": "Tolo Nouhou" },
+						{ "playerName": "Christopher Wooh" },
+						{ "playerName": "Martin Hongla" }
+					]
+				}
+			]
+		},
+		{
+			"group": "H",
+			"teams": [
+				{
+					"countryName": "Portugal",
+					"image": "https://www.kindernetz.de/wissen/1611231219322,europa-portugal-102~_v-16x9@2dXL_-77ed5d09bafd4e3cf6a5a0264e5e16ea35f14925.jpg",
+					"points": "1",
+					"player": [
+						{ "playerName": "Diogo Costa" },
+						{ "playerName": "Rui Patricio" },
+						{ "playerName": "Jose Sa" },
+						{ "playerName": "Diogo Dalot" },
+						{ "playerName": "Joao Cancelo" },
+						{ "playerName": "Danilo Pereira" },
+						{ "playerName": "Pepe" },
+						{ "playerName": "Ruben Dias" },
+						{ "playerName": "Antonio Silva" },
+						{ "playerName": "Nuno Mendes" },
+						{ "playerName": "Raphael Guerreiro" }
+					]
+				},
+				{
+					"countryName": "Ghana",
+					"image": "https://www.welt-flaggen.de/data/flags/w580/gh.png",
+					"points": "6",
+					"player": [
+						{ "playerName": "Abdul Nurudeen" },
+						{ "playerName": "Danlad Ibrahim" },
+						{ "playerName": "Lawrence Ati Zigi" },
+						{ "playerName": "Joseph Aidoo" },
+						{ "playerName": "Daniel Amartey" },
+						{ "playerName": "Alexander Djiku" },
+						{ "playerName": "Tariq Lamptey" },
+						{ "playerName": "Gideon Mensah" },
+						{ "playerName": "Denis Odoi" },
+						{ "playerName": "Abdul-Rahman Baba" },
+						{ "playerName": "Mohamed Salisu" }
+					]
+				},
+				{
+					"countryName": "Uruguay",
+					"image": "https://auswandern-info.com/wp-content/uploads/Uruguay-Flagge-WM-Reisio-Frei.png",
+					"points": "4",
+					"player": [
+						{ "playerName": "Sergio Rochet" },
+						{ "playerName": "Fernando Muslera" },
+						{ "playerName": "Sebastian Sosa" },
+						{ "playerName": "Jose Luis Rodriguez" },
+						{ "playerName": "Guillermo Varela" },
+						{ "playerName": "Ronald Araujo" },
+						{ "playerName": "Josema Gimenez" },
+						{ "playerName": "Sebastian Coates" },
+						{ "playerName": "Diego Godin" },
+						{ "playerName": "Martin Caceres" },
+						{ "playerName": "Matias Vina" }
+					]
+				},
+				{
+					"countryName": "Südkorea",
+					"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/2560px-Flag_of_South_Korea.svg.png",
+					"points": "1",
+					"player": [
+						{ "playerName": "Seung-Gyu Kim" },
+						{ "playerName": "Bum-Keun Song" },
+						{ "playerName": "Hyeon-Woo Jo" },
+						{ "playerName": "Kyung-Won Kwon" },
+						{ "playerName": "Moon-Hwan Kim" },
+						{ "playerName": "Min-Jae Kim" },
+						{ "playerName": "Young-Gwon Kim" },
+						{ "playerName": "Jin-Su Kim" },
+						{ "playerName": "Tae-Hwan Kim" },
+						{ "playerName": "Jong-Gyu Yoon" },
+						{ "playerName": "Yu-Min Cho" }
+					]
+				}
+			]
+		}
+	]
 }
