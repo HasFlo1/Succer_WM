@@ -4,7 +4,7 @@ import store from "./model/store"
 import { Group } from "./model/model";
 import { RootObject } from "./model/model";
 const url = "https://www.jsonkeeper.com/b/RHHG"
-const url2 = "https://www.jsonkeeper.com/b/O59A"
+const url2 = "https://www.jsonkeeper.com/b/HV55"
 
 class UserService {
     async fetchUsers() {//asynchrone fetch methode

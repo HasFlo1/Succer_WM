@@ -8,7 +8,7 @@ const tableTemplate = html`
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <table class="w3-table w3-striped w3-bordered">
         <div class="A">
-            <table class="w3-table w3-striped w3-bordered">
+            <table style="table-layout: fixed" class="w3-table w3-striped w3-bordered">
             <thead>
                 <tr>
                     <th>Group A</th>
@@ -20,7 +20,7 @@ const tableTemplate = html`
 
             <div class="B">
         
-            <table class="w3-table w3-striped w3-bordered">
+            <table style="table-layout: fixed" class="w3-table w3-striped w3-bordered">
             <thead>
                 <tr>
                     <th>Group B</th>
@@ -32,7 +32,7 @@ const tableTemplate = html`
 
             <div class="C">
         
-            <table id="1" class="w3-table w3-striped w3-bordered">
+            <table style="table-layout: fixed" class="w3-table w3-striped w3-bordered">
             <thead>
                 <tr>
                     <th>Group C</th>
@@ -44,7 +44,7 @@ const tableTemplate = html`
 
             <div class="D">
        
-            <table class="w3-table w3-striped w3-bordered">
+            <table style="table-layout: fixed" class="w3-table w3-striped w3-bordered">
             <thead>
                 <tr>
                     <th>Group D</th>
@@ -53,11 +53,60 @@ const tableTemplate = html`
             <tbody  id="D">
             </tbody>
             </div>
+
+            <div class="E">
+       
+            <table style="table-layout: fixed" class="w3-table w3-striped w3-bordered">
+            <thead>
+                <tr>
+                    <th>Group E</th>
+                </tr>
+            </thead>
+            <tbody  id="E">
+            </tbody>
+            </div>
+
+            <div class="F">
+       
+            <table style="table-layout: fixed" class="w3-table w3-striped w3-bordered">
+            <thead>
+                <tr>
+                    <th>Group F</th>
+                </tr>
+            </thead>
+            <tbody  id="F">
+            </tbody>
+            </div>
+
+            <div class="G">
+       
+            <table style="table-layout: fixed" class="w3-table w3-striped w3-bordered">
+            <thead>
+                <tr>
+                    <th>Group G</th>
+                </tr>
+            </thead>
+            <tbody  id="G">
+            </tbody>
+            </div>
+
+            <div class="H">
+            <table style="table-layout: fixed" class="w3-table w3-striped w3-bordered">
+            <thead>
+                <tr>
+                    <th>Group H</th>
+                </tr>
+            </thead>
+            <tbody  id="H">
+            </tbody>
+            </div>
 `
 
 //Template
 const rowTemplate = (team: Team) => html`
+    <td><img src=${team.image} alt=${team.image} width="100"></td>
     <td>${team.countryName}</td>
+    <td>${team.points}</td>
 `
 
 class GroupTableComponent extends HTMLElement {
