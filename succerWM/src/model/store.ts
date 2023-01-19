@@ -5,16 +5,16 @@ import {Group, Team} from "./model"
 import { RootObject } from "./model"
 
 export interface Model {
-    readonly groups: Group[], //kann gruppen nur lesn
+    readonly groups: Group[]
     
 }
 
 const initialState: Model = {
-    groups: []//deault statment -> Arrayliste die leer ist
+    groups: []
     
 }
 
-const store = new BehaviorSubject<Model>(initialState)//intialisiert den Store
+const store = new BehaviorSubject<Model>(initialState)
 
-export default store;//Exportiert Store
+export default store;
 

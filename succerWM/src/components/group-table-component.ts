@@ -19,7 +19,6 @@ const tableTemplate = html`
         </div>
 
             <div class="B">
-        
             <table style="table-layout: fixed" class="w3-table w3-striped w3-bordered">
             <thead>
                 <tr>
@@ -43,7 +42,6 @@ const tableTemplate = html`
             </div>
 
             <div class="D">
-       
             <table style="table-layout: fixed" class="w3-table w3-striped w3-bordered">
             <thead>
                 <tr>
@@ -55,7 +53,6 @@ const tableTemplate = html`
             </div>
 
             <div class="E">
-       
             <table style="table-layout: fixed" class="w3-table w3-striped w3-bordered">
             <thead>
                 <tr>
@@ -67,7 +64,6 @@ const tableTemplate = html`
             </div>
 
             <div class="F">
-       
             <table style="table-layout: fixed" class="w3-table w3-striped w3-bordered">
             <thead>
                 <tr>
@@ -79,7 +75,6 @@ const tableTemplate = html`
             </div>
 
             <div class="G">
-       
             <table style="table-layout: fixed" class="w3-table w3-striped w3-bordered">
             <thead>
                 <tr>
@@ -102,7 +97,6 @@ const tableTemplate = html`
             </div>
 `
 
-//Template
 const rowTemplate = (team: Team) => html`
     <td><img src=${team.image} alt=${team.image} width="100"></td>
     <td>${team.countryName}</td>
@@ -116,17 +110,18 @@ class GroupTableComponent extends HTMLElement {
         super()
         this.root = this.attachShadow({ mode: "closed" })
     }
+
     async connectedCallback() {
         store.subscribe(model => {this.render(model.groups); console.log(model.groups)})
-        groupService.fetchUsers()
-        
+        groupService.fetchData()
     }
+
     private render(groups: Group[]) {
         render(tableTemplate, this.root)
         const bodys = this.root.querySelectorAll("tbody")
         groups.forEach(group => {
             group.teams.forEach(team => {
-                var body = bodys.forEach(x => {
+                bodys.forEach(x => {
                     if(x.attributes.getNamedItem("id").value == group.group){
                         const row = x.insertRow()
                         row.onclick=()=>{
@@ -137,16 +132,10 @@ class GroupTableComponent extends HTMLElement {
                     }
                 })
             })
-            
-            /*const row = body!.insertRow()
-            row.addTable
-            render(rowTemplate(group), row)*/
-            
               
         })
-        //const nodes = this.root.getElementById("1")
-        //render(tableTemplate, nodes)
 
     }
 }
+
 customElements.define("group-table-component", GroupTableComponent)//eigene Komponente

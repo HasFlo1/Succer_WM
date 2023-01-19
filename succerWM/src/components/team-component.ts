@@ -36,6 +36,7 @@ class TeamComponent extends HTMLElement {
     }
 
     private team: string
+    //Wird aufgerufen wenn sich das Team ändert
     attributeChangedCallback(name: string, oldValue: string, value: string) {
         console.log("TODO: display team", name)
 
@@ -47,7 +48,6 @@ class TeamComponent extends HTMLElement {
         this.render()
     }
 
-    
 
     connectedCallback() {
         this.render()

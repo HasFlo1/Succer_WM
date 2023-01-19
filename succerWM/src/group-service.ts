@@ -6,14 +6,14 @@ import { RootObject } from "./model/model";
 const url = "https://www.jsonkeeper.com/b/RHHG"
 const url2 = "https://www.jsonkeeper.com/b/HV55"
 
-class UserService {
-    async fetchUsers() {//asynchrone fetch methode
-        const response = await fetch(url2, {//fetch
-            mode: "cors"//wegen der Cors poicy
+class DataService {
+    async fetchData() {
+        const response = await fetch(url2, {
+            mode: "cors"
         })
         let root: RootObject = await response.json()//in eine Variable als Json speichern
-        let groups = root.group//holt aus json die Gruppen
-        let nextState = produce(store.getValue(), draft => {//für singel source of truth -> immer
+        let groups = root.group
+        let nextState = produce(store.getValue(), draft => {//für single source of truth -> immer
             draft.groups = groups
         })
         store.next(nextState)
@@ -21,5 +21,5 @@ class UserService {
     }
 }
 
-const groupService = new UserService()
+const groupService = new DataService()
 export default groupService//exportiert groupService
